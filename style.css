@@ -1,0 +1,361 @@
+                                                    .body {
+                                                        margin: 0%;
+                                                        padding: 0%;
+                                                    }
+                                                    
+                                                    .landingpage {
+                                                        background-color: black;
+                                                        height: 100vh;
+                                                    }
+                                                    
+                                                    .navbar {
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-content: center;
+                                                        gap: 450px;
+                                                        padding-top: 2%;
+                                                    }
+                                                    
+                                                    .navbar-items {
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        gap: 30px;
+                                                        margin-left: 8%;
+                                                    }
+                                                    
+                                                    .navbar-items a {
+                                                        color: white;
+                                                        text-decoration: none;
+                                                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+                                                    }
+                                                    
+                                                    .btn1 button {
+                                                        color: black;
+                                                        background-color: aqua;
+                                                        padding: 5px 30px;
+                                                        font-family: 'Times New Roman', Times, serif;
+                                                        font-size: large;
+                                                        border-radius: 8%;
+                                                    }
+                                                    
+                                                    .btn2 button {
+                                                        color: aqua;
+                                                        background-color: black;
+                                                        padding: 5px 30px;
+                                                        border-color: aqua;
+                                                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                                        margin-top: 5%
+                                                    }
+                                                    
+                                                    .img img {
+                                                        height: 430px;
+                                                        width: 300px;
+                                                        padding-left: 60%;
+                                                        padding-top: 35%;
+                                                        border-radius: 20%;
+                                                    }
+                                                    
+                                                    .landingpage-content {
+                                                        display: flex;
+                                                        justify-content: space-around;
+                                                        align-items: center;
+                                                        gap: 30%;
+                                                    }
+                                                    
+                                                    .content {
+                                                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                                                    }
+                                                    
+                                                    .content #name {
+                                                        color: aqua;
+                                                    }
+                                                    
+                                                    .content #web {
+                                                        color: white;
+                                                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                                                    }
+                                                    
+                                                    .content p {
+                                                        color: white;
+                                                        line-height: 150%;
+                                                    }
+                                                    
+                                                    .content span {
+                                                        color: aqua;
+                                                    }
+                                                    
+                                                    .education {
+                                                        height: 70vh;
+                                                        display: flex;
+                                                        justify-content: space-around;
+                                                        align-items: center;
+                                                    }
+                                                    
+                                                    .education-content {
+                                                        margin-left: 41%;
+                                                        margin-top: 10%;
+                                                        font-size: x-large
+                                                    }
+                                                    
+                                                    .matric {
+                                                        border: 9px solid black;
+                                                        padding: 20px 45px;
+                                                        background-color: aqua;
+                                                        margin-left: 90px;
+                                                    }
+                                                    
+                                                    .inter {
+                                                        border: 9px solid black;
+                                                        padding: 20px 45px;
+                                                        background-color: aqua;
+                                                    }
+                                                    
+                                                    .graduation {
+                                                        border: 9px solid black;
+                                                        padding: 20px;
+                                                        background-color: aqua;
+                                                        margin-right: 90px;
+                                                    }
+                                                    
+                                                    .graduation h3,
+                                                    .matric h3,
+                                                    .inter h3 {
+                                                        font-size: 105%;
+                                                    }
+                                                    
+                                                    .matric h2,
+                                                    .inter h2,
+                                                    .graduation h2 {
+                                                        text-decoration: underline;
+                                                    }
+                                                    
+                                                    .services-section {
+                                                        background-color: black;
+                                                        height: 80vh;
+                                                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                                                    }
+                                                    
+                                                    .services-content {
+                                                        color: white;
+                                                        text-align: center;
+                                                        padding-top: 2%;
+                                                    }
+                                                    
+                                                    .services {
+                                                        color: black;
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        gap: 2%;
+                                                        margin-top: 10%;
+                                                    }
+                                                    
+                                                    .services-content h3 {
+                                                        color: aqua;
+                                                        font-size: x-large;
+                                                    }
+                                                    
+                                                    .mern,
+                                                    .problem,
+                                                    .leadership {
+                                                        background-color: white;
+                                                        padding: 3%;
+                                                    }
+                                                    
+                                                    .mern h3,
+                                                    .problem h3,
+                                                    .leadership h3 {
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    .footer {
+                                                        background-color: white;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        justify-content: center;
+                                                        gap: 10%;
+                                                    }
+                                                    
+                                                    .icons,
+                                                    .social {
+                                                        display: flex;
+                                                        flex-direction: row;
+                                                        gap: 15%;
+                                                        transition: 0.5s;
+                                                    }
+                                                    
+                                                    .social:hover {
+                                                        transform: translateY(-10px);
+                                                    }
+                                                    
+                                                    .btn1 button:hover {
+                                                        background-color: black;
+                                                        color: aqua;
+                                                        border-color: aqua;
+                                                    }
+                                                    
+                                                    .btn2 button:hover {
+                                                        background-color: aqua;
+                                                        color: black;
+                                                    }
+                                                    
+                                                    .navbar-items a:hover {
+                                                        transform: scale(0.9);
+                                                    }
+                                                    
+                                                    .leadership:hover {
+                                                        background-color: aqua;
+                                                    }
+                                                    
+                                                    .mern:hover {
+                                                        background-color: aqua;
+                                                    }
+                                                    
+                                                    .problem:hover {
+                                                        background-color: aqua;
+                                                    }
+                                                    
+                                                    .content h1 {
+                                                        color: white;
+                                                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                                                        overflow: hidden;
+                                                        /* Ensures the content is not revealed until the animation */
+                                                        border-right: .15em solid aqua;
+                                                        /* The typwriter cursor */
+                                                        white-space: nowrap;
+                                                        /* Keeps the content on a single line */
+                                                        margin: 0 auto;
+                                                        /* Gives that scrolling effect as the typing happens */
+                                                        letter-spacing: .15em;
+                                                        /* Adjust as needed */
+                                                        animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+                                                    }
+                                                    /* The typing effect */
+                                                    
+                                                    @keyframes typing {
+                                                        from {
+                                                            width: 0
+                                                        }
+                                                        to {
+                                                            width: 100%
+                                                        }
+                                                    }
+                                                    /* The typewriter cursor effect */
+                                                    
+                                                    @keyframes blink-caret {
+                                                        from,
+                                                        to {
+                                                            border-color: transparent
+                                                        }
+                                                        50% {
+                                                            border-color: aqua;
+                                                        }
+                                                    }
+                                                    
+                                                    @media all and (max-width: 480px) {
+                                                        .navbar {
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            gap: 10px;
+                                                            padding-top: 10px;
+                                                        }
+                                                        .navbar-items {
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            gap: 5px;
+                                                            font-size: small;
+                                                            margin-right: 10px;
+                                                        }
+                                                        .btn1 button {
+                                                            padding: 1px 10px;
+                                                            font-size: small;
+                                                            margin-right: 28px;
+                                                            border-radius: 10%;
+                                                        }
+                                                        .navbar-items a {
+                                                            color: white;
+                                                            text-decoration: none;
+                                                            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+                                                        }
+                                                        .img img {
+                                                            height: 220px;
+                                                            width: 190px;
+                                                            border-radius: 20%;
+                                                        }
+                                                        .landingpage-content {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            padding-right: 300px;
+                                                            gap: 25px;
+                                                        }
+                                                        .content {
+                                                            font-size: x-small;
+                                                            padding-left: 270px;
+                                                        }
+                                                        .content p {
+                                                            font-size: small
+                                                        }
+                                                        .education-content h1 {
+                                                            font-size: xx-large;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            margin-right: 150px;
+                                                        }
+                                                        .education {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            align-items: center;
+                                                            gap: 20px;
+                                                            margin-bottom: 100px;
+                                                        }
+                                                        .matric {
+                                                            font-size: small;
+                                                            padding: 2px 24px;
+                                                            margin-right: 87px;
+                                                        }
+                                                        .inter {
+                                                            font-size: small;
+                                                            padding: 2px 20px;
+                                                        }
+                                                        .graduation {
+                                                            font-size: small;
+                                                            padding: 2px 4px;
+                                                            margin-right: 2px;
+                                                        }
+                                                        .education-content {
+                                                            height: 18vh;
+                                                        }
+                                                        .services-section {
+                                                            height: 100vh;
+                                                        }
+                                                        .services {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            gap: 40px;
+                                                        }
+                                                        .mern,
+                                                        .leadership,
+                                                        .problem {
+                                                            font-size: small;
+                                                        }
+                                                        .leadership {
+                                                            padding: 8px 14px;
+                                                        }
+                                                        .footer {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            justify-content: center;
+                                                        }
+                                                        .social svg {
+                                                            height: 2em;
+                                                            padding-top: 20px;
+                                                        }
+                                                        .text p {
+                                                            font-size: small;
+                                                        }
+                                                    }
